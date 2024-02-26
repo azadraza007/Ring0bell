@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <title>Ring'O'bell</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__bar">
+          <div class="logo">
+            <a href="#"><img src="assets/Ring'O' bell.jpg" alt="logo" /></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#explore">Explore</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="btn nav__btn">Book Now</button>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <p>Simple - Unique - Friendly</p>
+        <h1>Make Yourself At Home<br />In Our <span>Hotel</span>.</h1>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <p class="section__subheader">ABOUT US</p>
+        <h2 class="section__header">The Best Holidays Start Here!</h2>
+        <p class="section__description">
+          An historic building at the heart of Farnworth village. Join us here
+          at the <strong>Ring O'Bells</strong> in our cosy family run, country
+          pub and indulge in a fabulous selection of food and beverage. Why not
+          <strong>
+            relax in our ambient bar, from premium wine, local cask ale to
+            continental lager, we've got you covered!
+          </strong>
+          Live music every Friday & Saturday, along with our popular jazz
+          Sundays. All your favourite sports<span id="dots"
+            ><strong> ...</strong></span
+          >
+          <span id="readMore">
+            Even a dog friendly area for your furry friends. And who could
+            forget our delicious bar snack menu. It really is the hub of the
+            community! Fancy dining with us? A seasonal menu created to the
+            flavour profile of the time of year, accompanied by your favourite
+            pub classics! We can also accommodate any
+            <strong
+              >social gathering from Christenings to baby showers, engagements
+              or anniversaries, birthdays and wakes</strong
+            >, with our function room and catering for up to 50 people. If
+            that's not enough why not enjoy a refreshing beer or cocktail in our
+            huge beer garden during those hot summer months, also featuring a
+            children's play area. There's no better way to keep our community
+            alive and together! So what are you waiting for come and join us
+            here at the <strong>Ring O' Bells</strong>
+            <strong>See you all soon!</strong>
+          </span>
+        </p>
+        <div class="about__btn">
+          <button class="btn" id="btnText" onclick="readMoreFunction()">
+            Read More
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container room__container">
+      <p class="section__subheader">OUR LIVING ROOM</p>
+      <h2 class="section__header">The Most Memorable Rest Time Starts Here.</h2>
+      <div class="room__grid">
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-1.jpg" alt="room" />
+          </div>
+          <div class="room__card__details">
+            <h4>Road side View</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              voluptatibus molestiae deserunt amet totam nesciunt!
+            </p>
+            <h5>Starting from <span>1500/night</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-2.jpg" alt="room" />
+          </div>
+          <div class="room__card__details">
+            <h4>Cityscape Room</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+              consequuntur.
+            </p>
+            <h5>Starting from <span>2000/night</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-3.jpg" alt="room" />
+          </div>
+          <div class="room__card__details">
+            <h4>Family Garden</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+              rem at praesentium dignissimos?
+            </p>
+            <h5>Starting from <span>2500/night</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <div class="service__content">
+          <p class="section__subheader">SERVICES</p>
+          <h2 class="section__header">Strive Only For The Best.</h2>
+          <ul class="service__list">
+            <li>
+              <span><i class="ri-shield-star-line"></i></span>
+              High Class Security
+            </li>
+            <li>
+              <span><i class="ri-24-hours-line"></i></span>
+              24 Hours Room Service
+            </li>
+            <li>
+              <span><i class="ri-headphone-line"></i></span>
+              Conference Room
+            </li>
+            <li>
+              <span><i class="ri-map-2-line"></i></span>
+              Emergency Services
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__content">
+        <div class="banner__card">
+          <h4>25+</h4>
+          <p>Properties Available</p>
+        </div>
+        <div class="banner__card">
+          <h4>350+</h4>
+          <p>Bookings Completed</p>
+        </div>
+        <div class="banner__card">
+          <h4>600+</h4>
+          <p>Happy Customers</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="explore" id="explore">
+      <p class="section__subheader">EXPLORE</p>
+      <h2 class="section__header">What's New Today.</h2>
+      <div class="explore__bg">
+        <div class="explore__content">
+          <p class="section__description">10th MAR 2023</p>
+          <h4>A New Menu Is Available In Our Hotel.</h4>
+          <button class="btn">Continue</button>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="explore" id="explore">
+      <div class="menu-list">
+        <p class="section__subheader">EXPLORE</p>
+        <h2 class="section__header">What's New Today.</h2>
+        <h3 class="section__description">Click to see different Menus</h3>
+        <div class="menu-li">
+          <ul>
+            <li onclick="changeMenu('desert')">Desert Menu</li>
+            <li onclick="changeMenu('autumn')">Autumn's Winter Menu</li>
+            <li onclick="changeMenu('sandwich')">
+              Sandwich and Bar Snacks Menu
+            </li>
+            <li onclick="changeMenu('children')">Children's Menu</li>
+            <li onclick="changeMenu('mazak_tha_mazak')">milega beta sabr kr</li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu-image">
+        <h1 style="color: #e82574; display: flex; justify-content: center" ;>
+          Ring'0'Bell Menu's
+        </h1>
+        <img id="menu-img" src="assets/Ring'O' bell.jpg" alt="Menu Image" />
+      </div>
+    </section>
+    <!-- Menu in resturant -->
+    <section class="section__container room__container">
+      <p class="section__subheader">OUR Best Menu Item</p>
+      <h2 class="section__header">The best we offers</h2>
+      <div class="room__grid">
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/menuItem-1.JPG" alt="room" />
+          </div>
+          <div class="room__card__details">
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              voluptatibus molestiae deserunt amet totam nesciunt!
+            </p>
+            <h5>Starting from <span>Rs. 1500</span></h5>
+            <button class="btn">Order Now</button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/menuItem-2.JPG" alt="room" />
+          </div>
+          <div class="room__card__details">
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+              consequuntur.
+            </p>
+            <h5>Starting from <span>RS. 2000</span></h5>
+            <button class="btn">Order Now</button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/menuItem-3.JPG" alt="room" />
+          </div>
+          <div class="room__card__details">
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+              rem at praesentium dignissimos?
+            </p>
+            <h5>Starting from <span>Rs. 2500</span></h5>
+            <button class="btn">Order Now</button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/menuItem-4.JPG" alt="room" />
+          </div>
+          <div class="room__card__details">
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+              rem at praesentium dignissimos?
+            </p>
+            <h5>Starting from <span>Rs. 2500</span></h5>
+            <button class="btn">Order Now</button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/menuItem-5.JPG" alt="room" />
+          </div>
+          <div class="room__card__details">
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+              rem at praesentium dignissimos?
+            </p>
+            <h5>Starting from <span>Rs. 2500</span></h5>
+            <button class="btn">Order Now</button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/menuItem-6.JPG" alt="room" />
+          </div>
+          <div class="room__card__details">
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+              rem at praesentium dignissimos?
+            </p>
+            <h5>Starting from <span>Rs. 2500</span></h5>
+            <button class="btn">Order Now</button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/menuItem-7.JPG" alt="room" />
+          </div>
+          <div class="room__card__details">
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+              rem at praesentium dignissimos?
+            </p>
+            <h5>Starting from <span>Rs. 2500</span></h5>
+            <button class="btn">Order Now</button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/menuItem-8.JPG" alt="room" />
+          </div>
+          <div class="room__card__details">
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+              rem at praesentium dignissimos?
+            </p>
+            <h5>Starting from <span>Rs. 2500</span></h5>
+            <button class="btn">Order Now</button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/menuItem-9.JPG" alt="room" />
+          </div>
+          <div class="room__card__details">
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+              rem at praesentium dignissimos?
+            </p>
+            <h5>Starting from <span>Rs. 2500</span></h5>
+            <button class="btn">Order Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testomonial -->
+    <div class="Testomonial">
+      <div class="inner">
+        <h1>Testomonial</h1>
+        <div class="border"></div>
+        <div class="row">
+          <div class="col">
+            <div class="testonomial">
+              <img src="./assets/testonimial-2.jpg" alt="" />
+              <div class="name">Full Name</div>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aspernatur vero, id repudiandae illum earum quisquam.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="testonomial">
+              <img src="./assets/Testonomial-1.avif" alt="" />
+              <div class="name">Full Name</div>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aspernatur vero, id repudiandae illum earum quisquam.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="testonomial">
+              <img src="./assets/testonomail-3.jpg" alt="" />
+              <div class="name">Full Name</div>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aspernatur vero, id repudiandae illum earum quisquam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact us form -->
+    <div class="container">
+      <div class="contact-box">
+        <div class="left">
+          <img
+            src="./assets/operator.png"
+            alt=""
+            style="
+              height: 400px;
+              width: 400px;
+              margin-top: 4rem;
+              padding: 10px;
+              margin-left: 2rem;
+            "
+          />
+        </div>
+        <div class="right">
+          <h2>Contact Us</h2>
+          <input type="text" class="field" placeholder="Your Name" />
+          <input type="text" class="field" placeholder="Your Email" />
+          <input type="text" class="field" placeholder="Phone" />
+          <textarea placeholder="Message" class="field"></textarea>
+          <button class="form_btn">Send</button>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo">
+            <a href="#home"><img src="assets/Ring'O' bell.jpg" alt="logo" /></a>
+          </div>
+          <p class="section__description">
+            Discover a world of comfort, luxury, and adventure as you explore
+            our curated selection of hotels, making every moment of your getaway
+            truly extraordinary.
+          </p>
+          <button class="btn">Book Now</button>
+        </div>
+        <div class="footer__col">
+          <h4>QUICK LINKS</h4>
+          <ul class="footer__links">
+            <li><a href="#">Browse Destinations</a></li>
+            <li><a href="#">Special Offers & Packages</a></li>
+            <li><a href="#">Room Types & Amenities</a></li>
+            <li><a href="#">Customer Reviews & Ratings</a></li>
+            <li><a href="#">Travel Tips & Guides</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>OUR SERVICES</h4>
+          <ul class="footer__links">
+            <li><a href="#">Concierge Assistance</a></li>
+            <li><a href="#">Flexible Booking Options</a></li>
+            <li><a href="#">Airport Transfers</a></li>
+            <li><a href="#">Wellness & Recreation</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>CONTACT US</h4>
+          <ul class="footer__links">
+            <li><a href="#">jhayes@xirco.uk</a></li>
+          </ul>
+          <div class="footer__socials">
+            <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
+            <a href="#"><img src="assets/instagram.png" alt="instagram" /></a>
+            <a href="#"><img src="assets/youtube.png" alt="youtube" /></a>
+            <a href="#"><img src="assets/twitter.png" alt="twitter" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 ZnSoftech All rights reserved.
+      </div>
+    </footer>
+
+    <script src="engine.js"></script>
+  </body>
+</html>
